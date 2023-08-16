@@ -1,8 +1,8 @@
 ---
-layout: about
-title: about
+layout: Me
+title: Me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Servants of artificial intelligence machines. </a>
 
 profile:
   align: right
