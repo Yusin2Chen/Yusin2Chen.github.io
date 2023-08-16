@@ -1,5 +1,5 @@
 ---
-layout: Me
+layout: about
 title: Me
 permalink: /
 subtitle: <a href='#'>Servants of artificial intelligence machines. </a>
