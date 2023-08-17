@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Yusin2Chen
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Yusin2Chen/Open_RSI_Seg_CD
+  - Yusin2Chen/self-supervised_change_detetction
+  - Yusin2Chen/Sentinel1_Orbit_files_download
