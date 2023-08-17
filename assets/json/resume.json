@@ -29,10 +29,7 @@
       "url": "https://rslab.disi.unitn.it/",
       "startDate": "2019-11-01",
       "endDate": "2023-11-01",
-      "summary": "Developed a pixel-wise contrastive framework to perform unsupervised change detection in multisensor and multitemporal remote sensing images, achieving fine-grained change maps and temporal robustness in bitemporal image pairs. Created a new framework for unsupervised change detection in satellite image time series using contrastive learning with feature tracking.",
-"Built a unified model of incomplete multimodal learning for remote sensing data fusion using a random modality combination training strategy and the proposed attention block in network training, as well as the contrastive and reconstruction loss in pre-training, resulting in increased efficiency and accuracy in modal-incomplete inputs.",
-"Collected training labels from OpenStreetMap and images from ArcGIS Wayback imagery to train models in large-scale semantic segmentation and change detection tasks, demonstrating a useful and accessible approach.",
-"Developed an attention-based deep residual U-shaped network to mitigate atmospheric artefacts in InSAR interferograms, surpassing generic atmospheric correction models and achieving comparable results to advanced time-series InSAR methods.",
+      "summary": "Developed a pixel-wise contrastive framework to perform unsupervised change detection in multisensor and multitemporal remote sensing images, achieving fine-grained change maps and temporal robustness in bitemporal image pairs. Created a new framework for unsupervised change detection in satellite image time series using contrastive learning with feature tracking., Built a unified model of incomplete multimodal learning for remote sensing data fusion using a random modality combination training strategy and the proposed attention block in network training, as well as the contrastive and reconstruction loss in pre-training, resulting in increased efficiency and accuracy in modal-incomplete inputs., Collected training labels from OpenStreetMap and images from ArcGIS Wayback imagery to train models in large-scale semantic segmentation and change detection tasks, demonstrating a useful and accessible approach., Developed an attention-based deep residual U-shaped network to mitigate atmospheric artefacts in InSAR interferograms, surpassing generic atmospheric correction models and achieving comparable results to advanced time-series InSAR methods.",
       "highlights": [
         "remote sensing image change detection and data fusion"
       ]
@@ -43,11 +40,8 @@
       "url": "http://sklged.whigg.cas.cn/",
       "startDate": "2016-09-01",
       "endDate": "2019-06-01",
-      "summary": "Created a DEM extraction workflow from declassified Hexagon spy images to study glacial changes in the central Karakorum area, providing insights into glacial thickness variations over the past 40-50 years.",
-"Monitored ground deformation in coastal areas of Hangzhou Bay using PS-InSAR and SBAS techniques, identifying potential risk areas and providing temporal-spatial patterns of displacements.",
-"Developed the "DSs-SBAS" method for monitoring permafrost deformation, improving the spatial and temporal resolutions of large-scale deformation measurements over permafrost regions in the Tibetan Plateau.",
-"Proposed an approach for large-scale active layer thickness inversion of permafrost using the SAR backscattering coefficient, MODIS surface temperature, and the seasonal deformation amplitude, providing a high-precision alternative for monitoring active layer thickness when field data is limited.",
-        "InSAR and permafrost monitoring"
+      "summary": "Created a DEM extraction workflow from declassified Hexagon spy images to study glacial changes in the central Karakorum area, providing insights into glacial thickness variations over the past 40-50 years., Monitored ground deformation in coastal areas of Hangzhou Bay using PS-InSAR and SBAS techniques, identifying potential risk areas and providing temporal-spatial patterns of displacements., Developed the DSs-SBAS method for monitoring permafrost deformation, improving the spatial and temporal resolutions of large-scale deformation measurements over permafrost regions in the Tibetan Plateau., Proposed an approach for large-scale active layer thickness inversion of permafrost using the SAR backscattering coefficient, MODIS surface temperature, and the seasonal deformation amplitude, providing a high-precision alternative for monitoring active layer thickness when field data is limited.",
+      "highlights": [ "InSAR and permafrost monitoring"
       ]
     }
   ],
