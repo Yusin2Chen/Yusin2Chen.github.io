@@ -1,61 +1,89 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Chen, Yuxing",
+    "label": "Geospatial Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "yuxing.chen@unitn.it",
+    "phone": "(39) 339-4567483",
+    "url": "https://Yusin2Chen.github.io",
+    "summary": "I am a final year Ph.D. student at the University of Trento and I am passionate about the application of remote sensing techniques.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Via Sommarive, 9",
+      "postalCode": "I-38122",
+      "city": "Trento",
+      "countryCode": "IT",
+      "region": "TN"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "YusinUCAS",
+        "url": "https://twitter.com/YusinUCAS"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Remote Sensing Laboratory, University of Trento",
+      "position": "PhD Student",
+      "url": "https://rslab.disi.unitn.it/",
+      "startDate": "2019-11-01",
+      "endDate": "2023-11-01",
+      "summary": "Developed a pixel-wise contrastive framework to perform unsupervised change detection in multisensor and multitemporal remote sensing images, achieving fine-grained change maps and temporal robustness in bitemporal image pairs. Created a new framework for unsupervised change detection in satellite image time series using contrastive learning with feature tracking.",
+"Built a unified model of incomplete multimodal learning for remote sensing data fusion using a random modality combination training strategy and the proposed attention block in network training, as well as the contrastive and reconstruction loss in pre-training, resulting in increased efficiency and accuracy in modal-incomplete inputs.",
+"Collected training labels from OpenStreetMap and images from ArcGIS Wayback imagery to train models in large-scale semantic segmentation and change detection tasks, demonstrating a useful and accessible approach.",
+"Developed an attention-based deep residual U-shaped network to mitigate atmospheric artefacts in InSAR interferograms, surpassing generic atmospheric correction models and achieving comparable results to advanced time-series InSAR methods.",
       "highlights": [
-        "Relativity"
+        "remote sensing image change detection and data fusion"
+      ]
+    },
+    {
+      "name": "State Key Laboratory of Geodesy and Earth’s Dynamics, CAS",
+      "position": "Master Student",
+      "url": "http://sklged.whigg.cas.cn/",
+      "startDate": "2016-09-01",
+      "endDate": "2019-06-01",
+      "summary": "Created a DEM extraction workflow from declassified Hexagon spy images to study glacial changes in the central Karakorum area, providing insights into glacial thickness variations over the past 40-50 years.",
+"Monitored ground deformation in coastal areas of Hangzhou Bay using PS-InSAR and SBAS techniques, identifying potential risk areas and providing temporal-spatial patterns of displacements.",
+"Developed the "DSs-SBAS" method for monitoring permafrost deformation, improving the spatial and temporal resolutions of large-scale deformation measurements over permafrost regions in the Tibetan Plateau.",
+"Proposed an approach for large-scale active layer thickness inversion of permafrost using the SAR backscattering coefficient, MODIS surface temperature, and the seasonal deformation amplitude, providing a high-precision alternative for monitoring active layer thickness when field data is limited.",
+        "InSAR and permafrost monitoring"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Trento, Trento, Italy",
+      "url": "https://www.unitn.it/en",
+      "area": "Information Engineering and Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2019-11-01",
+      "endDate": "2023-11-01",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        "Information Engineering and Computer Science"
+      ]
+    },
+    {
+      "institution": "University of Chinese Academy of Sciences, Beijing, China",
+      "url": "https://www.ucas.ac.cn/",
+      "area": "Geodesy and Surveying Engineering",
+      "studyType": "Master",
+      "startDate": "2016-09-01",
+      "endDate": "2019-06-01",
+      "score": "",
+      "courses": [
+        "Geodesy and Surveying Engineering"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "National Scholarship",
+      "date": "2018-11-01",
+      "awarder": "Ministry of Education of the People's Republic of China",
+      "summary": "This scholarship is to award my great work in master"
     }
   ],
   "certificates": [],
@@ -63,7 +91,7 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker"
     },
     {
