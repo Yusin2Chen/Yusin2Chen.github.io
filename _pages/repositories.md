@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Readme
+title: repositories
 description: You can find the code of my paper and blogs here.
 nav: true
 nav_order: 3
