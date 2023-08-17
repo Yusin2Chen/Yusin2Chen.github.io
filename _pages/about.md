@@ -14,8 +14,8 @@ profile:
   #  <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-posts: true  # includes a list of the newest posts
-papers: true # includes a list of papers marked as "selected={true}"
+latest_posts: true  # includes a list of the newest posts
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 My name is Chen, Yuxing and I am s geospatial data engineer with 7+ years of experience processing SAR and multispectral images. I have expert knowledge in InSAR and self-supervised remote sensing image change detection and data fusion. In addition to my research background, I have proven experience implementing a couple of related projects. Sense, analyze, and act has always been my philosophy in my remote sensing research. Drones are a more active and feasible way to respond to emergencies, difficult situations, and large-area sampling. I have learned a great deal about sensing and analyzing in my undergraduate, master's, and doctoral studies. I am now eager to expand my research to the field of drone action in a postdoctoral position.
