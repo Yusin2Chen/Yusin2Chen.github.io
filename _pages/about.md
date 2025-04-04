@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>Unveiling the unknown across Earth and beyond, through the fusion of AI and planetary remote sensing. </a>
 
 profile:
-  align: middle
+  align: center
   image: yusin.jpg
   image_circular: false # crops the image to make it circular
   #address: >
