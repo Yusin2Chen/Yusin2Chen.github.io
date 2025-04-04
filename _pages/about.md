@@ -2,10 +2,10 @@
 layout: about
 title: Me
 permalink: /
-subtitle: <a href='#'>a servant of artificial intelligence machines. </a>
+subtitle: <a href='#'>Unveiling the unknown across Earth and beyond, through the fusion of AI and planetary remote sensing. </a>
 
 profile:
-  align: right
+  align: middle
   image: yusin.jpg
   image_circular: false # crops the image to make it circular
   #address: >
