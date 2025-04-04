@@ -1,7 +1,7 @@
 ---
 layout: page
-title: robotics
-permalink: /robotics/
+title: intelligence
+permalink: /intelligence/
 description: A growing collection of cool robotics topics.
 nav: false
 nav_order: 3
