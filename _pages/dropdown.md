@@ -7,6 +7,6 @@ dropdown: true
 children: 
     - title: remote_sensing
       permalink: /remote_sensing/
-    - title: robotics
-      permalink: /robotics/
+    - title: intelligence
+      permalink: /intelligence/
 ---
