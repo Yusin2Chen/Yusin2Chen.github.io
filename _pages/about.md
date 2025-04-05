@@ -6,7 +6,7 @@ subtitle: <a href='#'>Unveiling the unknown across Earth and beyond, through the
 
 profile:
   align: center
-  image: yusin.jpg
+  image: BeyondEarth.png
   image_circular: false # crops the image to make it circular
   #address: >
   #  <p>555 your office number</p>
