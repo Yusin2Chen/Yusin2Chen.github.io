@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Disaster Response Agent
+description: Human-AI Collaboration for Extreme Climate Event Response
 img: assets/img/1.jpg
 importance: 3
 category: fun
