@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Via
+description: Exploring World via Wikipedia
 img:
 importance: 3
 category: fun
