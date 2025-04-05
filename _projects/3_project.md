@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: To be continued
+description: Exploring the Evolution of New Technologies
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
