@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Planetary Observation Understanding
-description: ImgKnow: Planetary Insights through Remote Sensing
+description: ImgKnow - Planetary Insights through Remote Sensing
 img: assets/img/12.jpg
 importance: 1
 category: work
