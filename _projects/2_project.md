@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Geospatial Data Question Answering
-description: NumGeoQA: Intelligent Question Answering for Geospatial Data
+description: NumGeoQA - Intelligent Question Answering for Geospatial Data
 img: assets/img/3.jpg
 importance: 2
 category: work
