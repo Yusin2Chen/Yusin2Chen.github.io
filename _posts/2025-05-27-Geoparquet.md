@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  The First Step of Open GeoAgent: A Technical Dive into Finding Useful Geospatial Data Sources
+title:  The First Step of Open GeoAgent - A Technical Dive into Finding Useful Geospatial Data Sources
 date: 2025-05-27 21:01:00
-description: how to use LLM for RS VQA tasks
+description: how to use RAG on open earth data
 tags: LLMs, Remote Sensing
 categories: sample-posts
 thumbnail: assets/img/26d11da3-af08-4e94-8d88-e043334c6cdb.svg
