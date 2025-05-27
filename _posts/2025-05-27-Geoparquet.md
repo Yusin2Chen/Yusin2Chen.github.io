@@ -5,7 +5,7 @@ date: 2025-05-27 21:01:00
 description: how to use RAG on open earth data
 tags: LLMs, Remote Sensing
 categories: sample-posts
-thumbnail: assets/img/26d11da3-af08-4e94-8d88-e043334c6cdb.svg
+thumbnail: assets/img/26d11da3-af08-4e94-8d88-e043334c6cdb.png
 ---
 
 ## abstract
@@ -31,9 +31,7 @@ DuckDB, an in-memory OLAP (Online Analytical Processing) DBMS, is employed for i
 
 Key DuckDB features utilized:
 
-- Direct Parquet Querying
-
-  : DuckDB can directly query one or more Parquet files, including those stored in cloud object storage.
+- Direct Parquet Querying: DuckDB can directly query one or more Parquet files, including those stored in cloud object storage.
 
   Python
 
@@ -43,15 +41,7 @@ Key DuckDB features utilized:
   conn.sql("SELECT count(id) FROM 'path/to/your/collection_geoparquet/*.parquet';")
   ```
 
-- Spatial Extension
-
-  : This extension is crucial for geospatial filtering. After installation (
-
-  ```
-  INSTALL spatial; LOAD spatial;
-  ```
-
-  ), powerful spatial SQL operations can be performed.
+- Spatial Extension: This extension is crucial for geospatial filtering. After installation (INSTALL spatial; LOAD spatial), powerful spatial SQL operations can be performed.
 
   Python
 
@@ -84,9 +74,7 @@ Key DuckDB features utilized:
   print(result.head())
   ```
 
-- CQL2 to SQL Translation
-
-  : To maintain compatibility with existing STAC API workflows and allow users to leverage familiar query languages, the pygeofilter  library, along with its  library, along with its  pygeofilter-duckdb backend, can parse CQL2-JSON filters and translate them into DuckDB SQL WHERE  clauses. This allows users to define filters once and apply them to both STAC APIs and the GeoParquet/DuckDB backend.
+- CQL2 to SQL Translation: To maintain compatibility with existing STAC API workflows and allow users to leverage familiar query languages, the pygeofilter  library, along with its  library, along with its  pygeofilter-duckdb backend, can parse CQL2-JSON filters and translate them into DuckDB SQL WHERE  clauses. This allows users to define filters once and apply them to both STAC APIs and the GeoParquet/DuckDB backend.
 
   Python
 
@@ -128,16 +116,12 @@ The process, inspired by LlamaIndex's multi-document agent patterns, involves cr
 
 - **Document Processing**: For each collection, relevant documents (e.g., landing pages, technical specifications, usage tutorials) are loaded and parsed into nodes using `SentenceSplitter`.
 
-- Index Creation
-
-  :
+- Index Creation:
 
   - `VectorStoreIndex`: Built from these nodes using an embedding model (e.g., `OpenAIEmbedding(model="text-embedding-3-small")`). This index allows for semantic search within the collection's documentation (e.g., "find information about radiometric correction").
   - `SummaryIndex`: Optionally, a `SummaryIndex` can be built to generate concise summaries of each document/collection. This is useful for providing quick overviews to the top-level agent or the user.
 
-- Query Engines and Tools
-
-  :
+- Query Engines and Tools:
 
   - The indices are exposed as query engines (e.g., `vector_index.as_query_engine()`, `summary_index.as_query_engine()`).
   - These query engines are then wrapped into `QueryEngineTool` instances. Each tool is given a name and a description that outlines its specific capabilities (e.g., "Useful for answering specific factual questions about Collection X's processing levels").
@@ -148,9 +132,7 @@ The process, inspired by LlamaIndex's multi-document agent patterns, involves cr
 
 - **Tool Aggregation**: The specialized collection agents are exposed as tools to the top-level agent. This is done by wrapping the `agent.run` (or `agent.arun` for async) method of each collection agent into a `FunctionTool` using `FunctionTool.from_defaults`. The `description` of each `FunctionTool` is critical; it's often derived from a summary of the collection the agent represents, enabling the top-level agent to make informed decisions about which tool (i.e., which collection agent) to engage for a given query.
 
-- Tool Retrieval and Reranking
-
-  :
+- Tool Retrieval and Reranking :
 
   1. An `ObjectIndex.from_objects(all_tools, index_cls=VectorStoreIndex)` is created to index all the collection-agent tools.
   2. When the top-level agent receives a query, an initial set of relevant tools (collection agents) is retrieved using `obj_index.as_node_retriever(similarity_top_k=N)`.
@@ -191,9 +173,7 @@ DuckDB, an in-memory OLAP (Online Analytical Processing) DBMS, is employed for i
 
 Key DuckDB features utilized:
 
-- Direct Parquet Querying
-
-  : DuckDB can directly query one or more Parquet files, including those stored in cloud object storage.
+- Direct Parquet Querying: DuckDB can directly query one or more Parquet files, including those stored in cloud object storage.
 
   Python
 
@@ -203,15 +183,7 @@ Key DuckDB features utilized:
   conn.sql("SELECT count(id) FROM 'path/to/your/collection_geoparquet/*.parquet';")
   ```
 
-- Spatial Extension
-
-  : This extension is crucial for geospatial filtering. After installation (
-
-  ```
-  INSTALL spatial; LOAD spatial;
-  ```
-
-  ), powerful spatial SQL operations can be performed.
+- Spatial Extension: This extension is crucial for geospatial filtering. After installation (INSTALL spatial; LOAD spatial;), powerful spatial SQL operations can be performed.
 
   Python
 
@@ -244,9 +216,7 @@ Key DuckDB features utilized:
   print(result.head())
   ```
 
-- CQL2 to SQL Translation
-
-  : To maintain compatibility with existing STAC API workflows and allow users to leverage familiar query languages, the 
+- CQL2 to SQL Translation: To maintain compatibility with existing STAC API workflows and allow users to leverage familiar query languages, the 
 
   ```
   pygeofilter
@@ -356,9 +326,7 @@ The process, inspired by LlamaIndex's multi-document agent patterns, involves cr
 
 - **Tool Aggregation**: The specialized collection agents are exposed as tools to the top-level agent. This is done by wrapping the `agent.run` (or `agent.arun` for async) method of each collection agent into a `FunctionTool` using `FunctionTool.from_defaults`. The `description` of each `FunctionTool` is critical; it's often derived from a summary of the collection the agent represents, enabling the top-level agent to make informed decisions about which tool (i.e., which collection agent) to engage for a given query.
 
-- Tool Retrieval and Reranking
-
-  :
+- Tool Retrieval and Reranking :
 
   1. An `ObjectIndex.from_objects(all_tools, index_cls=VectorStoreIndex)` is created to index all the collection-agent tools.
   2. When the top-level agent receives a query, an initial set of relevant tools (collection agents) is retrieved using `obj_index.as_node_retriever(similarity_top_k=N)`.
